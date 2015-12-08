@@ -9,7 +9,7 @@ public class MyThread extends Thread {
 	@Override
 	public void run() {
 for(int index=0;index<10;index++){
-	System.out.println("Thread count: "+ index);
+	System.out.println("Thread" +this._name + "count: "+ index);
 	try{
 		
 		sleep(1000); // wait for 1000
